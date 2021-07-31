@@ -30,6 +30,5 @@ $extensao = pathinfo($_FILES['arquivo']['name'][$contador], PATHINFO_EXTENSION);
   }
   $contador++;
 }}
-
 header("Location: index.html");
   ?>
